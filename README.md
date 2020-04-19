@@ -1,22 +1,9 @@
-# Flocking Simulation
 
-This is a program that simulates a crowd for an MSc simulation assignments project.
+# Multi-agent System with Artificial Intelligence
 
+This is the program that simulates a crowd for my final project at Bournemouth University.
 
-# User Interaction
+In this project, an A* pathfinding algorithm has been used to calculate shortest route for each agent between given starting and end positions by avoiding the obstacles within the scene. Furthermore, a collision detection algorithm has been applied to individuals to avoid collision with agents each other. Application has been written by using C++ and OpenGL.
 
-This work allows user to get interact with the system via keyboard. The simulation starts
-with creating agents into the system with random directions and speeds. From this moment,
-agents keep moving randomly until the user press one of the command keys given below.
-
-Key S: Stop. Freeze the entire system to observe positions of agents in the system.
-
-Key R: Random motion. Let agents move randomly around the system as it was in the
-beginning.
-
-Key C: Crowd motion. Directs agents through the mass centre to form the crowd.
-
-Arrows: After turned to crowd motion by pressing Key C, user can relocate the mass centre
-to move the crowd around the system.
-
+The program draws a maze as default and places the agents at the entrances of the maze as their start position and assigns their end positions on the other side of the maze to give them a target to reach. 
 

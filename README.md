@@ -1,8 +1,7 @@
-# Crowd Simulation
+# Flocking Simulation
 
 This is a program that simulates a crowd for an MSc simulation assignments project.
 
-Code available on GitHub.
 
 # User Interaction
 
